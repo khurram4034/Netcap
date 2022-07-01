@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/* p{
+    display: inline-block;
+} */
+.container-100{
+    width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
+section{
+    /* margin: 3rem 0; */
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    display:block;
+}
+li{
+    list-style: none;
+}
+
+span{
+    display: inline-block;
+}
+.orangeColor{
+    color: var(--primary);
+}
+.capitalize{
+    text-transform: capitalize !important;
+}
+.uppercase{
+    text-transform: uppercase !important;
+}
+.fullwidth-container{
+    width: 100%;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.flex{
+    display: flex;
+}
+.flexwrap{
+    flex-wrap: wrap;
+}
+.flexallcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-flex-end{
+    justify-content: flex-end;
+} 
+.justify-evenly{
+    justify-content:space-evenly;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+.bg-dark{
+    background-color: #2a2c30;
+}
+.btn{
+    cursor: pointer;
+    padding: 5px 10px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: all .3s ease;
+    display: inline-block;
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn:hover{
+    opacity: 0.8;
+
+}
+.hide{
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.marginX-0{
+    margin-top:0  !important;
+    margin-bottom: 0 !important;
+}
+input{
+    outline: none;
+    font-family: var(--primary-font); 
+}
